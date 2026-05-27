@@ -1,0 +1,22 @@
+.save-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 37px;
+    height: 37px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 31px;
+    margin: 4px 2px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.save-button:hover {
+    background-color: #21a1f1;
+    transform: rotate(224deg);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}

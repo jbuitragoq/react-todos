@@ -1,0 +1,12 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon--check .icon-svg:hover {
+    color: #4CAF50;
+}
+.icon--delete .icon-svg:hover {
+    color: #f44336;
+}
